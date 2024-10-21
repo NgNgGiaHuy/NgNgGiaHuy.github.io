@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nguyen Ngoc Gia Huy's Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/2b05088d83.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Data Analysis</p>
+        <h1>Hi, I'm <span>Gia Huy</span><br />From Viet Nam</h1>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------------------About me------------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./Avatar2.jpg">
+        </div>
+        <div class="about-col-2" >
+          <h1 class="sub-title">About Me</h1>
+          <p style="font-size: 20px;">My name is Nguyen Ngoc Gia Huy, a final-year Data Science major. With a strong passion for Data Analysis, I am always eager to apply my knowledge to support data-driven decision-making in various fields. Over the next three years, I plan to gain extensive practical experience by participating in data analysis projects. Let's visit my Portfolio to see my project and detail informations.</p>
+
+          <div class="tab-titles">
+            <p style="font-weight: bold;" class="tab-links active-link" onclick="opentab('skills')">Data Analysis Skills</p>
+            <p style="font-weight: bold;" class="tab-links" onclick="opentab('softskill')">Soft Skills</p>
+            <p style="font-weight: bold;" class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li style="font-size: 16px ;"><span style="font-size: 18px; font-weight: bold; ">Cleaning Data</span><br />Having basic knowledge of data cleaning: Including identifying, correcting errors, handling missing values.</li>
+              <br>
+              <li style="font-size: 16px ;"><span style="font-size: 18px; font-weight: bold; ">Visualizing Data</span><br />Understanding the mean and appropriate use of different types of Data Visualization.</li>
+              <br>
+              <li style="font-size: 16px ;"><span style="font-size: 18px; font-weight: bold; ">Explore Data Analysis</span><br />Summarizing and visualizing data to identify patterns and insights before modeling.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="softskill">
+            <ul>
+              <li style="font-size: 16px ;"><span style="font-size: 18px; font-weight: bold; ">Good presentation skills:</span><br />Clearly share complex ideas and data with different audiences, using simple visuals and engaging stories.</li>
+              <br>
+              <li style="font-size: 16px ;"><span style="font-size: 18px; font-weight: bold; ">Good teamwork skills</span><br />Working well with others to reach common goals and help create a positive team atmosphere.</li>
+              <br>
+              <li style="font-size: 16px ;"><span style="font-size: 18px; font-weight: bold; ">Strong time management skills</span><br />Organizing tasks well and meet deadlines to finish projects on time.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li style="font-size: 16px ;"><span style="font-size: 18px; font-weight: bold; ">2021 - Now</span><br />Ho Chi Minh University of Banking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------Languages------------------------------ -->
+  <div id="languages">
+    <div class="container">
+      <h1 class="sub-title">Languages - Tools</h1>
+      <div class="languages-list">
+        <div>
+          <i class="fa-brands fa-python"></i>
+          <h2>Python</h2>
+          <p>Basic Python skills include the ability to write and execute simple scripts, manipulate data, and utilize libraries (pandas, seaborn, numpy, matplotlib) for tasks such as data analysis and automation.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-chart-line"></i>
+          <h2>Power BI</h2>
+          <p>Know when to use different types of charts, can design a complete dashboard, can build a data model, and have basic knowledge of DAX functions for Measures and Calculated Columns.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>SQL</h2>
+          <p>I can use query statements like JOIN, window functions, CTE, and many other basic ones.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-brain"></i>
+          <h2>Machine Learning</h2>
+          <p>I have basic skills in machine learning, including understanding key concepts like supervised and unsupervised learning. I can work with algorithms such as linear regression and decision trees, preprocess data, and evaluate model performance using metrics like accuracy and confusion matrix. I'm eager to learn and apply more advanced techniques.</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-file-excel"></i>
+          <h2>Microsoft Excel</h2>
+          <p>I have strong Excel skills in data analysis, complex formulas, pivot tables, and chart generation. I can manage large datasets, automate tasks with macros, and use functions like VLOOKUP and IF to enhance data insights and reporting accuracy.</p>
+        </div>
+        <div>
+          <i class="fa-brands fa-microsoft"></i>
+          <h2>Microsoft Offical</h2>
+          <p>I am skilled in MS Word, creating and formatting documents, using styles, inserting tables and images, and utilizing features like mail merge and track changes. In PowerPoint, I create engaging presentations with clear layouts and visuals to effectively communicate ideas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------Projects------------------------------ -->
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="project-list">
+        <div class="projects">
+          <img src="./work1.jpg">
+          <div class="layer" style="text-align: left;">
+            <h3 style="font-size: 25px; font-weight: bold; ">Dynamic Sale Analysis</h3>
+            <p>A Sales Director needs an online dashboard to track product sales, customer identities, and trends, focusing on products and customers with budget comparisons. Your task is to create a dashboard for the Sales Director that provides an overview of sales and performance, while also offering Sales employees detailed insights and filtering options for customers and products.</p>
+            <a href="https://github.com/NgNgGiaHuy/Dynamic-Sales-Analytics-with-SQL-Power-BI"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="projects">
+          <img src="./work2.jpg">
+          <div class="layer" style="text-align: left;">
+            <h3 style="font-size: 25px; font-weight: bold; "> Campain Marketing Analysis</h3>
+            <p>ShopSporting, an online retail business, is experiencing a decline in customer engagement and conversion rates despite launching new online marketing campaigns. The data analyst's task is to provide analysis and solutions to increase conversion rates, enhance customer interaction, and improve customer feedback scores.</p>
+            <a href="https://github.com/NgNgGiaHuy/Campaign-Marketing-Analyst-With-SQL-Python-Power-BI"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------------------contact------------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">  
+          <h1 style="text-align: left" class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> nguyenngocgiahuy77@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> 0909156607</p>
+          <div class="social-icons">
+            <a href="https://github.com/NgNgGiaHuy" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:nguyenngocgiahuy77@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/huy-nguyen-ngoc-gia-676798329/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/huy-nguyen-ngoc-gia-676798329/" target="_blank"><i class="fa-regular fa-file"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  <script>
+
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
