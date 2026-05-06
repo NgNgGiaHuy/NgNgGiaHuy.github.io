@@ -14,25 +14,25 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({ text, className = ''
     offset: ['start 0.8', 'end 0.2']
   });
 
-  const characters = text.split('');
+  const words = text.split(' ');
 
   return (
-    <p ref={containerRef} className={`${className} flex flex-wrap justify-center`}>
-      {characters.map((char, i) => {
-        const start = i / characters.length;
-        const end = start + (1 / characters.length);
+    <p ref={containerRef} className={`${className} flex flex-wrap justify-center gap-x-[0.25em]`}>
+      {words.map((word, i) => {
+        const start = i / words.length;
+        const end = start + (1 / words.length);
         
         // eslint-disable-next-line react-hooks/rules-of-hooks
         const opacity = useTransform(scrollYProgress, [start, end], [0.2, 1]);
         
         return (
           <span key={i} className="relative inline-block">
-            <span className="invisible">{char === ' ' ? '\u00A0' : char}</span>
+            <span className="invisible">{word}</span>
             <motion.span 
               className="absolute left-0 top-0"
               style={{ opacity }}
             >
-              {char === ' ' ? '\u00A0' : char}
+              {word}
             </motion.span>
           </span>
         );
