@@ -21,7 +21,7 @@ export const HeroSection: React.FC = () => {
       </FadeIn>
 
       {/* Hero Heading */}
-      <div className="flex-1 flex flex-col justify-center overflow-hidden z-20 pointer-events-none">
+      <div className="flex-1 flex flex-col justify-center overflow-hidden z-0 pointer-events-none">
         <FadeIn delay={0.15} y={40} className="w-full">
           <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] mt-6 sm:mt-4 md:-mt-5">
             Hi, i&apos;m huy

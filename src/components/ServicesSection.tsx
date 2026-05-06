@@ -5,27 +5,27 @@ const services = [
   {
     num: "01",
     name: "Agentic Workflow Automation",
-    desc: "Using AI Agents to automatically generate and deploy complex N8N workflows via natural language, eliminating manual drag-and-drop."
+    desc: "Orchestrating complex n8n workflows via AI (text-to-build) to deploy real-time alerting systems across all eCommerce channels."
   },
   {
     num: "02",
-    name: "MCP Data Integration",
-    desc: "Deploying Model Context Protocol (MCP) servers to allow AI Agents to natively understand and map complex Lark Base schemas to BigQuery."
+    name: "AI-Driven Data Architecture",
+    desc: "Designing AI Agents with BigQuery MCP integration, enabling Text-to-SQL capabilities so non-technical users can query databases naturally."
   },
   {
     num: "03",
-    name: "Zero-Touch ETL Bots",
-    desc: "Engineering autonomous Python bots on GCP that allow non-technical staff to trigger daily pipelines via simple chat commands."
+    name: "Zero-Touch ETL Pipelines",
+    desc: "Building end-to-end Python ELT pipelines on GCP triggered directly via Lark Chat bots—reducing reporting time from hours to 5 minutes."
   },
   {
     num: "04",
-    name: "Full-Stack AI Coding",
-    desc: "Orchestrating AI to rapidly code Next.js web apps and Python pdfplumber pipelines, slashing warehouse B2B processing times to seconds."
+    name: "B2B & Warehouse Systems",
+    desc: "Engineering Python OCR parsers (pdfplumber) and full-stack Next.js apps to automate B2B order logic and eliminate warehouse coding errors."
   },
   {
     num: "05",
-    name: "Data Arch & Auditing",
-    desc: "Building BigQuery Data Marts and performing complex In/Out inventory reconciliations to proactively detect and prevent financial loss."
+    name: "High-Impact Data Auditing",
+    desc: "Designing strict BigQuery Data Marts and reconciliation logic that directly trace inventory discrepancies, actively preventing financial loss."
   }
 ];
 

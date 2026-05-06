@@ -10,9 +10,9 @@ const projects = [
     desc: "We had a near-miss where a fake product report on Shopee was almost forgotten, which would have closed our shop. To prevent this, I used AI to build an N8N workflow that monitors BigQuery and pushes real-time critical alerts directly to our staff's Lark messenger.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/N8N",
     images: {
-      col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
-      col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85",
-      col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85"
+      col1_1: "/proj1.png",
+      col1_2: "/proj1.png",
+      col2: "/proj1.png"
     }
   },
   {
@@ -22,9 +22,9 @@ const projects = [
     desc: "Every day I spent 1 hour manually downloading data, running Jupyter Notebooks, and querying SQL to update our dashboards. I prompted Antigravity to write a Python Bot on GCP. Now, I just type 'run data' in Lark, and the bot runs everything autonomously.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Daily%20task%20load%20data",
     images: {
-      col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85",
-      col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85",
-      col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055753_adc5dcbd-a8e6-49c0-b43a-9b030d835cea.png&w=1280&q=85"
+      col1_1: "/proj2.png",
+      col1_2: "/proj2.png",
+      col2: "/proj2.png"
     }
   },
   {
@@ -34,9 +34,9 @@ const projects = [
     desc: "Warehouse staff were drowning in complex processes to create export codes. I used AI to help me build a Next.js app and Python pipeline that automatically parses B2B PDFs. Staff reported they couldn't finish their jobs without this tool.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Inventory%20Manage",
     images: {
-      col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85",
-      col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_060108_438f781a-9846-4dcc-89ab-c4e6cb830f5b.png&w=1280&q=85",
-      col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85"
+      col1_1: "/proj3.png",
+      col1_2: "/proj3.png",
+      col2: "/proj3.png"
     }
   },
   {
@@ -46,9 +46,9 @@ const projects = [
     desc: "Staff constantly asked me to run SQL queries. I connected Antigravity to BigQuery and created specific skills so staff can now simply chat with the AI in natural language to get their data answers instantly, bypassing manual requests entirely.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Bigquerry%20all",
     images: {
-      col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
-      col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85",
-      col2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee.png&w=1280&q=85"
+      col1_1: "/proj4.png",
+      col1_2: "/proj4.png",
+      col2: "/proj4.png"
     }
   }
 ];

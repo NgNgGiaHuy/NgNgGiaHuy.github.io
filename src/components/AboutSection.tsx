@@ -49,10 +49,11 @@ export const AboutSection: React.FC = () => {
         </FadeIn>
 
         <div className="mt-10 sm:mt-14 md:mt-16 w-full max-w-[560px]">
-          <AnimatedText 
-            text="I am a Data Analyst who believes analyzing data is only half the job. The real value comes from building systems that automate the analysis. While I don't write thousands of lines of code from scratch, I know exactly how to map out a business problem and use AI Agents (Antigravity) to build the code, servers, and workflows needed to fix it. I don't just build dashboards—I leverage AI to orchestrate enterprise-grade automations that save hundreds of manual hours."
-            className="text-[#D7E2EA] font-medium leading-relaxed text-[clamp(1rem,2vw,1.35rem)]"
-          />
+          <FadeIn delay={0.2} y={20}>
+            <p className="text-[#D7E2EA] font-medium leading-relaxed text-[clamp(1rem,2vw,1.35rem)]">
+              I am a Data Analyst who believes analyzing data is only half the job. The real value comes from building systems that automate the analysis. While I don't write thousands of lines of code from scratch, I know exactly how to map out a business problem and use AI Agents (Antigravity) to build the code, servers, and workflows needed to fix it. I don't just build dashboards—I leverage AI to orchestrate enterprise-grade automations that save hundreds of manual hours.
+            </p>
+          </FadeIn>
         </div>
 
         <div className="mt-16 sm:mt-20 md:mt-24">
