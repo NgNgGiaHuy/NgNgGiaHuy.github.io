@@ -5,7 +5,7 @@ import { LiveProjectButton } from './ui/LiveProjectButton';
 const projects = [
   {
     num: "01",
-    client: "Risk Management",
+    domain: "Risk Management",
     name: "Critical Shopee Alert System",
     desc: "We had a near-miss where a fake product report on Shopee was almost forgotten, which would have closed our shop. To prevent this, I used AI to build an N8N workflow that monitors BigQuery and pushes real-time critical alerts directly to our staff's Lark messenger.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/N8N",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     num: "02",
-    client: "Data Infrastructure",
+    domain: "Data Infrastructure",
     name: "Zero-Touch ETL Bot",
     desc: "Every day I spent 1 hour manually downloading data, running Jupyter Notebooks, and querying SQL to update our dashboards. I prompted Antigravity to write a Python Bot on GCP. Now, I just type 'run data' in Lark, and the bot runs everything autonomously.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Daily%20task%20load%20data",
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     num: "03",
-    client: "Warehouse Operations",
+    domain: "Warehouse Operations",
     name: "Inventory App & PDF Parser",
     desc: "Warehouse staff were drowning in complex processes to create export codes. I used AI to help me build a Next.js app and Python pipeline that automatically parses B2B PDFs. Staff reported they couldn't finish their jobs without this tool.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Inventory%20Manage",
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     num: "04",
-    client: "AI Integration",
+    domain: "AI Integration",
     name: "Text-to-SQL AI Assistant",
     desc: "Staff constantly asked me to run SQL queries. I connected Antigravity to BigQuery and created specific skills so staff can now simply chat with the AI in natural language to get their data answers instantly, bypassing manual requests entirely.",
     link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Bigquerry%20all",
@@ -79,7 +79,7 @@ const Card: React.FC<CardProps> = ({ project, index, progress, range, targetScal
               {project.num}
             </span>
             <div className="flex flex-col">
-              <span className="text-[#D7E2EA]/60 uppercase tracking-widest text-xs sm:text-sm mb-1">{project.client}</span>
+              <span className="text-[#D7E2EA]/60 uppercase tracking-widest text-xs sm:text-sm mb-1">{project.domain}</span>
               <h3 className="text-[#D7E2EA] uppercase font-medium text-xl sm:text-3xl md:text-4xl">{project.name}</h3>
               {project.desc && <p className="text-[#D7E2EA]/70 mt-2 max-w-2xl font-light text-sm sm:text-base leading-relaxed hidden sm:block">{project.desc}</p>}
             </div>

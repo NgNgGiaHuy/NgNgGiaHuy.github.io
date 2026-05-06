@@ -49,7 +49,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
 
               <div className="flex flex-col gap-1.5">
                 <label htmlFor="message" className="text-xs sm:text-sm font-medium text-[#D7E2EA]/80 uppercase tracking-wider">Message</label>
-                <textarea name="message" id="message" required rows={4} className="bg-transparent border border-[#D7E2EA]/20 rounded-xl px-4 py-3 text-[#D7E2EA] focus:outline-none focus:border-[#D7E2EA]/60 transition-colors resize-none" placeholder="How can I help you automate?"></textarea>
+                <textarea name="message" id="message" required rows={4} className="bg-transparent border border-[#D7E2EA]/20 rounded-xl px-4 py-3 text-[#D7E2EA] focus:outline-none focus:border-[#D7E2EA]/60 transition-colors resize-none" placeholder="Let's discuss how I can contribute to your team..."></textarea>
               </div>
 
               <button type="submit" className="mt-2 bg-[#D7E2EA] text-[#0C0C0C] font-black uppercase tracking-widest py-3.5 sm:py-4 rounded-xl hover:bg-white transition-colors">
