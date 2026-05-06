@@ -5,10 +5,10 @@ import { LiveProjectButton } from './ui/LiveProjectButton';
 const projects = [
   {
     num: "01",
-    client: "Data Platform",
-    name: "BigQuery & 80M VND Audit",
-    desc: "Zero visibility into fragmented eCommerce data across Shopee, Lazada, and TikTok. Designed 13 automated ETL pipelines to normalize cross-platform metrics into BigQuery Data Marts. Built an automated SKU-level audit logic that traced and detected an 80M VND inventory loss, preventing future recurrence.",
-    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System",
+    client: "Risk Management",
+    name: "Critical Shopee Alert System",
+    desc: "We had a near-miss where a fake product report on Shopee was almost forgotten, which would have closed our shop. To prevent this, I used AI to build an N8N workflow that monitors BigQuery and pushes real-time critical alerts directly to our staff's Lark messenger.",
+    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/N8N",
     images: {
       col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
       col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85",
@@ -17,10 +17,10 @@ const projects = [
   },
   {
     num: "02",
-    client: "AI Agent",
-    name: "No-Touch ETL Bot",
-    desc: "Manual ETL runs wasted hours. Non-tech staff needed the DA for every SQL query. Lark Bot now triggers the full ETL pipeline on chat command. AI Agent (Antigravity + MCP) lets staff query BigQuery in Vietnamese.",
-    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System/tree/main/etl-bot",
+    client: "Data Infrastructure",
+    name: "Zero-Touch ETL Bot",
+    desc: "Every day I spent 1 hour manually downloading data, running Jupyter Notebooks, and querying SQL to update our dashboards. I prompted Antigravity to write a Python Bot on GCP. Now, I just type 'run data' in Lark, and the bot runs everything autonomously.",
+    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Daily%20task%20load%20data",
     images: {
       col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f.png&w=1280&q=85",
       col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85",
@@ -29,10 +29,10 @@ const projects = [
   },
   {
     num: "03",
-    client: "Automation",
-    name: "B2B PDF Pipeline",
-    desc: "B2B PDF order processing took 30–60min with high error rates. Python pipeline using pdfplumber + Greedy Pack Algorithm for 5 vendor formats (GS25, Circle K, etc.). Next.js/SQLite app for B2C warehouse label printing.",
-    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System/tree/main/b2b-automation",
+    client: "Warehouse Operations",
+    name: "Inventory App & PDF Parser",
+    desc: "Warehouse staff were drowning in complex processes to create export codes. I used AI to help me build a Next.js app and Python pipeline that automatically parses B2B PDFs. Staff reported they couldn't finish their jobs without this tool.",
+    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Inventory%20Manage",
     images: {
       col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f.png&w=1280&q=85",
       col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_060108_438f781a-9846-4dcc-89ab-c4e6cb830f5b.png&w=1280&q=85",
@@ -41,10 +41,10 @@ const projects = [
   },
   {
     num: "04",
-    client: "Workflow",
-    name: "N8N Agentic Builder",
-    desc: "Ops team needed complex automation but lacked n8n expertise. Used Antigravity AI Agent (Text-to-Build) to orchestrate n8n workflows via natural language — real-time price anomaly detection and fake order alerting.",
-    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System/tree/main/n8n-workflows",
+    client: "AI Integration",
+    name: "Text-to-SQL AI Assistant",
+    desc: "Staff constantly asked me to run SQL queries. I connected Antigravity to BigQuery and created specific skills so staff can now simply chat with the AI in natural language to get their data answers instantly, bypassing manual requests entirely.",
+    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Bigquerry%20all",
     images: {
       col1_1: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85",
       col1_2: "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1.png&w=1280&q=85",
@@ -68,7 +68,7 @@ const Card: React.FC<CardProps> = ({ project, index, progress, range, targetScal
   return (
     <div ref={containerRef} className="h-[85vh] flex items-center justify-center sticky top-24 md:top-32 w-full max-w-6xl mx-auto px-5 sm:px-8 md:px-10">
       <motion.div 
-        style={{ scale, top: `calc(-10vh + ${index * 28}px)` }} 
+        style={{ scale, top: `${index * 28}px` }} 
         className="relative w-full rounded-[40px] sm:rounded-[50px] md:rounded-[60px] border-2 border-[#D7E2EA] bg-[#0C0C0C] p-4 sm:p-6 md:p-8 flex flex-col gap-6 sm:gap-8 overflow-hidden"
       >
         
@@ -129,9 +129,9 @@ export const ProjectsSection: React.FC = () => {
   });
 
   return (
-    <section id="projects" ref={containerRef} className="bg-[#0C0C0C] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 z-10 relative pt-20 sm:pt-24 md:pt-32 pb-40">
+    <section id="projects" ref={containerRef} className="bg-[#0C0C0C] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 z-10 relative pt-12 sm:pt-16 md:pt-20 pb-40">
       
-      <h2 className="hero-heading font-black uppercase text-center mb-10 sm:mb-20 text-[clamp(3rem,12vw,160px)] leading-none">
+      <h2 className="hero-heading relative z-20 font-black uppercase text-center mb-10 sm:mb-16 md:mb-20 text-[clamp(3rem,12vw,160px)] leading-none">
         Projects
       </h2>
 

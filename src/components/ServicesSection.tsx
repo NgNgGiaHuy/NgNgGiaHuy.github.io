@@ -4,38 +4,38 @@ import { FadeIn } from './ui/FadeIn';
 const services = [
   {
     num: "01",
-    name: "Data Engineering",
-    desc: "Designing and building robust ETL/ELT pipelines, flattening complex JSON data, and managing BigQuery Data Warehouses."
+    name: "Agentic Workflow Automation",
+    desc: "Using AI Agents to automatically generate and deploy complex N8N workflows via natural language, eliminating manual drag-and-drop."
   },
   {
     num: "02",
-    name: "Automation & AI",
-    desc: "Orchestrating N8N workflows, developing Text-to-SQL AI agents, and integrating Lark Bot APIs for zero-touch automation."
+    name: "MCP Data Integration",
+    desc: "Deploying Model Context Protocol (MCP) servers to allow AI Agents to natively understand and map complex Lark Base schemas to BigQuery."
   },
   {
     num: "03",
-    name: "BI & Visualization",
-    desc: "Creating multi-channel dashboards in Looker Studio, designing KPI reports, and leveraging Power Query for deep insights."
+    name: "Zero-Touch ETL Bots",
+    desc: "Engineering autonomous Python bots on GCP that allow non-technical staff to trigger daily pipelines via simple chat commands."
   },
   {
     num: "04",
-    name: "Advanced SQL",
-    desc: "Writing complex queries using Window Functions, CTEs, and sub-queries to optimize data models and performance in BigQuery."
+    name: "Full-Stack AI Coding",
+    desc: "Orchestrating AI to rapidly code Next.js web apps and Python pdfplumber pipelines, slashing warehouse B2B processing times to seconds."
   },
   {
     num: "05",
-    name: "Python & Tooling",
-    desc: "Utilizing Pandas for data manipulation and pdfplumber for extracting unstructured data from complex vendor PDF formats."
+    name: "Data Arch & Auditing",
+    desc: "Building BigQuery Data Marts and performing complex In/Out inventory reconciliations to proactively detect and prevent financial loss."
   }
 ];
 
 export const ServicesSection: React.FC = () => {
   return (
-    <section id="price" className="bg-[#FFFFFF] text-[#0C0C0C] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32 flex flex-col items-center">
+    <section id="expertise" className="bg-[#FFFFFF] text-[#0C0C0C] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32 flex flex-col items-center">
       
       <FadeIn delay={0} y={40}>
         <h2 className="font-black uppercase text-center mb-16 sm:mb-20 md:mb-28 text-[clamp(3rem,12vw,160px)] leading-none">
-          Services
+          Expertise
         </h2>
       </FadeIn>
 
