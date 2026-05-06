@@ -36,17 +36,18 @@ const ServiceItem = ({ service, isLast }: { service: typeof services[0], isLast:
   // Track this item's position relative to the viewport
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start 85%", "center 50%", "end 15%"]
+    offset: ["start 90%", "center 50%", "end 10%"]
   });
 
   // When scrolling: dim -> bright -> dim
-  const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0.2, 1, 1, 0.2]);
-  const scale = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0.95, 1, 1, 0.95]);
+  const opacity = useTransform(scrollYProgress, [0, 0.45, 0.55, 1], [0.1, 1, 1, 0.1]);
+  const scale = useTransform(scrollYProgress, [0, 0.45, 0.55, 1], [0.85, 1, 1, 0.85]);
+  const filter = useTransform(scrollYProgress, [0, 0.45, 0.55, 1], ["blur(3px)", "blur(0px)", "blur(0px)", "blur(3px)"]);
 
   return (
     <motion.div 
       ref={ref}
-      style={{ opacity, scale }}
+      style={{ opacity, scale, filter }}
       className={`flex flex-col md:flex-row items-start md:items-center py-8 sm:py-10 md:py-12 border-b border-[#0c0c0c]/15 ${isLast ? 'border-0' : ''} transition-all duration-300 ease-out`}
     >
       <div className="font-black text-[clamp(3rem,10vw,140px)] leading-none md:w-[30%]">
