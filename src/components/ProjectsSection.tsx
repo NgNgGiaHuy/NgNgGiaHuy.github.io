@@ -131,7 +131,7 @@ export const ProjectsSection: React.FC = () => {
   return (
     <section id="projects" ref={containerRef} className="bg-[#0C0C0C] rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 z-10 relative pt-12 sm:pt-16 md:pt-20 pb-40">
       
-      <h2 className="hero-heading relative z-20 font-black uppercase text-center mb-10 sm:mb-16 md:mb-20 text-[clamp(3rem,12vw,160px)] leading-none">
+      <h2 className="hero-heading relative z-0 font-black uppercase text-center mb-10 sm:mb-16 md:mb-20 text-[clamp(3rem,12vw,160px)] leading-none">
         Projects
       </h2>
 
