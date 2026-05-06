@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Nguyen Ngoc Gia Huy — Analytics Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <span class="logo">GiaHuy<span class="accent">.</span></span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="btn-nav">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <p class="hero-tag">👋 Hi, I'm</p>
+    <h1>Nguyen Ngoc <span class="accent">Gia Huy</span></h1>
+    <h2>Analytics Engineer <span class="divider">/</span> Data Automation Builder</h2>
+    <p class="hero-sub">I don't just analyze data — I build systems that make data run itself.<br/>
+    BigQuery · Python · N8N · Lark API · Google Cloud</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="https://github.com/NgNgGiaHuy" target="_blank" class="btn-ghost">GitHub ↗</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Systems Built</span></div>
+      <div class="stat"><span class="stat-num">13</span><span class="stat-label">BQ Pipelines</span></div>
+      <div class="stat"><span class="stat-num">~2h</span><span class="stat-label">Saved Daily</span></div>
+      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Dashboards</span></div>
+    </div>
+  </div>
+  <div class="hero-glow"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Data Analyst with nearly <strong>2 years of experience</strong> in FMCG eCommerce and marketing data. I specialize in building <strong>end-to-end data pipelines</strong> — from raw API ingestion to business dashboards — and automating workflows that used to take hours of manual work.</p>
+        <p>What makes me different: I bridge the gap between <strong>data engineering and business operations</strong>. I've built inventory systems, B2B order automation, Text-to-SQL tools for non-technical teams, and AI agents that build N8N workflows without anyone needing to know N8N.</p>
+        <p>📍 Binh Thanh, Ho Chi Minh City &nbsp;|&nbsp; 📧 nguyenngocgiahuy77@gmail.com &nbsp;|&nbsp; 📱 0909156607</p>
+      </div>
+      <div class="about-tags">
+        <span class="tag">SQL (BigQuery)</span><span class="tag">Python</span><span class="tag">Dataform</span>
+        <span class="tag">N8N</span><span class="tag">Lark API</span><span class="tag">Google Cloud</span>
+        <span class="tag">Looker Studio</span><span class="tag">Next.js</span><span class="tag">AI Agent</span>
+        <span class="tag">ETL Pipeline</span><span class="tag">Data Modeling</span><span class="tag">pdfplumber</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Data Analyst → Analytics Engineer</h3>
+            <span class="timeline-date">Aug 2025 – Present</span>
+          </div>
+          <p class="timeline-company">PlayAh Vietnam · FMCG eCommerce</p>
+          <ul>
+            <li>Built end-to-end data pipeline (API → BigQuery → Transform → Data Mart → Dashboard), ingesting <strong>1,000–2,000 records/day</strong> across Shopee, Lazada, TikTok, Facebook</li>
+            <li>Designed <strong>5–6 business dashboards</strong> (BOD, Marketing, Ecommerce, Finance) — reduced reporting time from <strong>2–3 hours → ~3 minutes</strong></li>
+            <li>Automated daily ETL pipeline via Lark Bot + GCP VM — team types "run data", pipeline completes in 5 minutes</li>
+            <li>Built B2B order automation: PDF parser → SKU converter → Lark Base sync. <strong>&lt;30 seconds/order</strong> vs 30–60 mins manual</li>
+            <li>Built Text-to-SQL tool so non-technical staff query BigQuery in Vietnamese — no DA needed</li>
+            <li>Developed N8N AI Agent that builds workflows from plain text descriptions — zero N8N knowledge required</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Data Analyst</h3>
+            <span class="timeline-date">Nov 2024 – Aug 2025</span>
+          </div>
+          <p class="timeline-company">Chin Media · Marketing Agency</p>
+          <ul>
+            <li>Built marketing data pipeline: Adveronix → BigQuery → Looker Studio</li>
+            <li>Reduced reporting time from <strong>~2 days → ~30 minutes</strong></li>
+            <li>Developed dashboards to track campaign and marketing performance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">Built in production, solving real business problems</p>
+    <div class="projects-grid">
+
+      <div class="project-card featured">
+        <div class="project-badge">Featured</div>
+        <div class="project-icon">📊</div>
+        <h3>BigQuery / Dataform Pipeline</h3>
+        <p class="project-problem"><strong>Problem:</strong> Data from 6+ platforms (Shopee, Lazada, TikTok, Facebook...) scattered in incompatible raw tables — no unified view.</p>
+        <p class="project-solution"><strong>Solution:</strong> 13 Dataform SQLX pipelines running scheduled (6:45 AM & 1:45 PM) — transform each channel to standard schema, union into All Channels Master Report.</p>
+        <div class="project-tags"><span>BigQuery</span><span>Dataform</span><span>SQLX</span><span>Google Cloud</span></div>
+        <div class="project-impact">
+          <span>✅ 13 pipelines automated</span>
+          <span>✅ Zero manual intervention</span>
+        </div>
+        <a href="https://github.com/NgNgGiaHuy/Antigravity-Solution-System" target="_blank" class="project-link">View Case Study ↗</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🤖</div>
+        <h3>ETL Bot + Text-to-SQL</h3>
+        <p class="project-problem"><strong>Problem:</strong> 1.5h/day manual pipeline work. Non-technical staff wait 30min–2h for data analyst to write SQL for them.</p>
+        <p class="project-solution"><strong>Solution:</strong> Python bot on GCP VM — team types "run data" on Lark. AI Agent converts Vietnamese questions into BigQuery SQL and returns results directly in chat.</p>
+        <div class="project-tags"><span>Python</span><span>Gemini API</span><span>Lark Bot</span><span>BigQuery</span><span>GCP VM</span></div>
+        <div class="project-impact">
+          <span>✅ ~1.5h/day saved</span>
+          <span>✅ Non-tech can self-serve data</span>
+        </div>
+        <a href="https://github.com/NgNgGiaHuy/Antigravity-Solution-System" target="_blank" class="project-link">View Case Study ↗</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">📦</div>
+        <h3>Inventory Management System</h3>
+        <p class="project-problem"><strong>Problem:</strong> Manual Excel tracking for warehouse ops. FBS reconciliation took 2–3h. B2B PDF orders took 30–60min each to process manually.</p>
+        <p class="project-solution"><strong>Solution:</strong> Full-stack Next.js web app for B2C warehouse (barcode scan, packing calculator, FBS reconciliation) + Python pipeline for B2B email PDF → Lark Base automation.</p>
+        <div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>SQLite</span><span>Python</span><span>pdfplumber</span></div>
+        <div class="project-impact">
+          <span>✅ FBS recon: 2h → 10min</span>
+          <span>✅ B2B order: 60min → 30sec</span>
+        </div>
+        <a href="https://github.com/NgNgGiaHuy/Antigravity-Solution-System" target="_blank" class="project-link">View Case Study ↗</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🔄</div>
+        <h3>N8N AI Agent — Workflow Builder</h3>
+        <p class="project-problem"><strong>Problem:</strong> Need to build N8N workflows for fake order reports — but nobody on team knows N8N. Finding the right node takes hours.</p>
+        <p class="project-solution"><strong>Solution:</strong> Integrated N8N MCP with AI Agent. Users describe what they want in Vietnamese → AI finds template, validates all nodes, deploys to N8N. No N8N knowledge required.</p>
+        <div class="project-tags"><span>N8N</span><span>MCP</span><span>AI Agent</span><span>Lark API</span></div>
+        <div class="project-impact">
+          <span>✅ 2h → 5min per workflow</span>
+          <span>✅ Zero N8N knowledge needed</span>
+        </div>
+        <a href="https://github.com/NgNgGiaHuy/Antigravity-Solution-System" target="_blank" class="project-link">View Case Study ↗</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">📈</div>
+        <h3>Ecommerce Channel Performance Analysis</h3>
+        <p class="project-problem"><strong>Problem:</strong> No unified view of performance across Shopee, TikTok, Lazada — impossible to compare channels or optimize SKU allocation.</p>
+        <p class="project-solution"><strong>Solution:</strong> Combined multi-platform data into unified dataset. Analyzed GMV by platform, revenue contribution, and SKU-level performance across channels.</p>
+        <div class="project-tags"><span>BigQuery</span><span>SQL</span><span>Looker Studio</span><span>Python</span></div>
+        <div class="project-impact">
+          <span>✅ Identified Shopee as #1 revenue driver</span>
+          <span>✅ TikTok flagged as high-growth unstable</span>
+        </div>
+        <a href="https://github.com/NgNgGiaHuy/Antigravity-Solution-System" target="_blank" class="project-link">View Case Study ↗</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">🎯</div>
+        <h3>KOC/KOL Campaign Performance Analysis</h3>
+        <p class="project-problem"><strong>Problem:</strong> KOC spend decisions made without data — unclear which creators actually drive GMV vs which are underperforming.</p>
+        <p class="project-solution"><strong>Solution:</strong> Integrated sales data with KOC performance data crawled via N8N. Analyzed campaign activity vs GMV correlation across platforms.</p>
+        <div class="project-tags"><span>N8N</span><span>BigQuery</span><span>SQL</span><span>Looker Studio</span></div>
+        <div class="project-impact">
+          <span>✅ TikTok GMV = paid KOC (not organic)</span>
+          <span>✅ Performance gaps identified by category</span>
+        </div>
+        <a href="https://github.com/NgNgGiaHuy/Antigravity-Solution-System" target="_blank" class="project-link">View Case Study ↗</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Data & Analytics</h4>
+        <div class="skill-items">
+          <span>SQL (BigQuery)</span><span>Window Functions</span><span>CTEs</span>
+          <span>Data Transformation</span><span>Data Modeling</span><span>Data Cleaning</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Engineering & Pipelines</h4>
+        <div class="skill-items">
+          <span>Python</span><span>Dataform (SQLX)</span><span>ETL Design</span>
+          <span>Google Cloud VM</span><span>BigQuery API</span><span>Google Drive API</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Automation & AI</h4>
+        <div class="skill-items">
+          <span>N8N</span><span>MCP (Model Context Protocol)</span><span>Gemini API</span>
+          <span>AI Agent Design</span><span>Lark Open API</span><span>Anycross</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>BI & Reporting</h4>
+        <div class="skill-items">
+          <span>Looker Studio</span><span>Dashboard Design</span>
+          <span>Google Sheets / Excel</span><span>Pivot Tables</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Web & Tools</h4>
+        <div class="skill-items">
+          <span>Next.js 14</span><span>TypeScript</span><span>SQLite</span>
+          <span>Docker</span><span>pdfplumber</span><span>pytesseract</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Education</h4>
+        <div class="skill-items">
+          <span>Data Science</span><span>Ho Chi Minh University of Banking</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-sub">Currently open to Analytics Engineer / Senior Data Analyst roles.</p>
+    <div class="contact-cards">
+      <a href="mailto:nguyenngocgiahuy77@gmail.com" class="contact-card">
+        <span class="contact-icon">📧</span>
+        <span>nguyenngocgiahuy77@gmail.com</span>
+      </a>
+      <a href="tel:0909156607" class="contact-card">
+        <span class="contact-icon">📱</span>
+        <span>0909 156 607</span>
+      </a>
+      <a href="https://github.com/NgNgGiaHuy" target="_blank" class="contact-card">
+        <span class="contact-icon">🐙</span>
+        <span>github.com/NgNgGiaHuy</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Built by Nguyen Ngoc Gia Huy · <a href="https://github.com/NgNgGiaHuy" target="_blank">GitHub</a></p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
