@@ -34,7 +34,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
 
             <form action="https://api.web3forms.com/submit" method="POST" className="flex flex-col gap-4 sm:gap-5">
               {/* NOTE: User needs to replace this with their Web3Forms Access Key */}
-              <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+              <input type="hidden" name="access_key" value="21c22f24-21b0-49f3-810b-9085bc566796" />
               <input type="hidden" name="redirect" value="https://web3forms.com/success" />
               
               <div className="flex flex-col gap-1.5">
