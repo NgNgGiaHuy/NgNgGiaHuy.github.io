@@ -50,7 +50,7 @@ export const AboutSection: React.FC = () => {
 
         <div className="mt-10 sm:mt-14 md:mt-16 w-full max-w-[560px]">
           <AnimatedText 
-            text="With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!"
+            text="Seeking a data role in a structured team environment where I can contribute to both data infrastructure and analytical decision-making. I specialize in BigQuery data platforms, automated ETL pipelines, and AI agent workflows that eliminate manual interventions and recover lost revenue."
             className="text-[#D7E2EA] font-medium leading-relaxed text-[clamp(1rem,2vw,1.35rem)]"
           />
         </div>

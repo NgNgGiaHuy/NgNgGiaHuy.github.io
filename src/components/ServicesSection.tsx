@@ -4,28 +4,28 @@ import { FadeIn } from './ui/FadeIn';
 const services = [
   {
     num: "01",
-    name: "3D Modeling",
-    desc: "Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations."
+    name: "Data Engineering",
+    desc: "Designing and building robust ETL/ELT pipelines, flattening complex JSON data, and managing BigQuery Data Warehouses."
   },
   {
     num: "02",
-    name: "Rendering",
-    desc: "High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life."
+    name: "Automation & AI",
+    desc: "Orchestrating N8N workflows, developing Text-to-SQL AI agents, and integrating Lark Bot APIs for zero-touch automation."
   },
   {
     num: "03",
-    name: "Motion Design",
-    desc: "Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences."
+    name: "BI & Visualization",
+    desc: "Creating multi-channel dashboards in Looker Studio, designing KPI reports, and leveraging Power Query for deep insights."
   },
   {
     num: "04",
-    name: "Branding",
-    desc: "Crafting cohesive visual identities -- from logos to full brand systems -- that communicate a clear and memorable presence."
+    name: "Advanced SQL",
+    desc: "Writing complex queries using Window Functions, CTEs, and sub-queries to optimize data models and performance in BigQuery."
   },
   {
     num: "05",
-    name: "Web Design",
-    desc: "Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience."
+    name: "Python & Tooling",
+    desc: "Utilizing Pandas for data manipulation and pdfplumber for extracting unstructured data from complex vendor PDF formats."
   }
 ];
 

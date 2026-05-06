@@ -1,9 +1,18 @@
 import React from 'react';
 
-export const LiveProjectButton: React.FC = () => {
+interface LiveProjectButtonProps {
+  href?: string;
+}
+
+export const LiveProjectButton: React.FC<LiveProjectButtonProps> = ({ href }) => {
   return (
-    <button className="rounded-full border-2 border-[#D7E2EA] text-[#D7E2EA] font-medium uppercase tracking-widest px-8 py-3 sm:px-10 sm:py-3.5 text-sm sm:text-base hover:bg-[#D7E2EA]/10 transition-colors">
-      Live Project
-    </button>
+    <a 
+      href={href || "#"} 
+      target={href ? "_blank" : undefined}
+      rel={href ? "noopener noreferrer" : undefined}
+      className="inline-flex items-center justify-center rounded-full border-2 border-[#D7E2EA] text-[#D7E2EA] font-medium uppercase tracking-widest px-8 py-3 sm:px-10 sm:py-3.5 text-sm sm:text-base hover:bg-[#D7E2EA]/10 transition-colors whitespace-nowrap"
+    >
+      View on GitHub
+    </a>
   );
 };

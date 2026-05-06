@@ -24,7 +24,7 @@ export const HeroSection: React.FC = () => {
       <div className="flex-1 flex flex-col justify-center overflow-hidden z-20 pointer-events-none">
         <FadeIn delay={0.15} y={40} className="w-full">
           <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw] mt-6 sm:mt-4 md:-mt-5">
-            Hi, i&apos;m jack
+            Hi, i&apos;m huy
           </h1>
         </FadeIn>
       </div>
@@ -33,7 +33,7 @@ export const HeroSection: React.FC = () => {
       <div className="flex justify-between items-end pb-7 sm:pb-8 md:pb-10 z-20">
         <FadeIn delay={0.35} y={20}>
           <p className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]" style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}>
-            a 3d creator driven by crafting striking and unforgettable projects
+            a data analyst & automation architect driven by building robust systems
           </p>
         </FadeIn>
         
