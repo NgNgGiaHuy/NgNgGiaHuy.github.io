@@ -19,7 +19,10 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
   return createPortal(
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+        <div 
+          className="fixed inset-0 flex items-center justify-center p-4"
+          style={{ zIndex: 999999, transform: 'translateZ(9999px)' }}
+        >
           <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
