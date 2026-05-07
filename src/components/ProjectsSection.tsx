@@ -8,7 +8,7 @@ const projects = [
     domain: "Risk Management",
     name: "Critical Shopee Alert System",
     desc: "We had a near-miss where a fake product report on Shopee was almost forgotten, which would have closed our shop. To prevent this, I used AI to build an N8N workflow that monitors BigQuery and pushes real-time critical alerts directly to our staff's Lark messenger.",
-    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/N8N",
+    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System/tree/main/n8n-workflows",
     images: {
       col1_1: "/proj1.png",
       col1_2: "/proj1.png",
@@ -20,7 +20,7 @@ const projects = [
     domain: "Data Infrastructure",
     name: "Zero-Touch ETL Bot",
     desc: "Every day I spent 1 hour manually downloading data, running Jupyter Notebooks, and querying SQL to update our dashboards. I prompted Antigravity to write a Python Bot on GCP. Now, I just type 'run data' in Lark, and the bot runs everything autonomously.",
-    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Daily%20task%20load%20data",
+    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System/tree/main/etl-bot",
     images: {
       col1_1: "/proj2.png",
       col1_2: "/proj2.png",
@@ -32,7 +32,7 @@ const projects = [
     domain: "Warehouse Operations",
     name: "Inventory App & PDF Parser",
     desc: "Warehouse staff were drowning in complex processes to create export codes. I used AI to help me build a Next.js app and Python pipeline that automatically parses B2B PDFs. Staff reported they couldn't finish their jobs without this tool.",
-    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Inventory%20Manage",
+    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System/tree/main/b2b-automation",
     images: {
       col1_1: "/proj3.png",
       col1_2: "/proj3.png",
@@ -44,7 +44,7 @@ const projects = [
     domain: "AI Integration",
     name: "Text-to-SQL AI Assistant",
     desc: "Staff constantly asked me to run SQL queries. I connected Antigravity to BigQuery and created specific skills so staff can now simply chat with the AI in natural language to get their data answers instantly, bypassing manual requests entirely.",
-    link: "https://github.com/NgNgGiaHuy/portfolio-github/tree/main/Bigquerry%20all",
+    link: "https://github.com/NgNgGiaHuy/Antigravity-Solution-System/tree/main/bigquery-pipeline",
     images: {
       col1_1: "/proj4.png",
       col1_2: "/proj4.png",
