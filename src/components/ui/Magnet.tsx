@@ -7,6 +7,7 @@ interface MagnetProps {
   activeTransition?: string;
   inactiveTransition?: string;
   className?: string;
+  disabledOnTouch?: boolean;
 }
 
 export const Magnet: React.FC<MagnetProps> = ({
@@ -16,12 +17,17 @@ export const Magnet: React.FC<MagnetProps> = ({
   activeTransition = 'transform 0.3s ease-out',
   inactiveTransition = 'transform 0.6s ease-in-out',
   className = '',
+  disabledOnTouch = true,
 }) => {
   const [isActive, setIsActive] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const magnetRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (disabledOnTouch && window.matchMedia('(hover: none) and (pointer: coarse)').matches) {
+      return;
+    }
+
     const handleMouseMove = (e: MouseEvent) => {
       if (!magnetRef.current) return;
       const { left, top, width, height } = magnetRef.current.getBoundingClientRect();
